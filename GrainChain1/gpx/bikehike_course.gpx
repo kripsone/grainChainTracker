@@ -1,0 +1,18 @@
+<?xml version="1.0"?><gpx version="1.0" creator="Trails 1.01 - http://www.trails.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd" xmlns:gpxtpx="http://www8.garmin.com/xmlschemas/TrackPointExtensionv1.xsd" xmlns:gpxx="http://www8.garmin.com/xmlschemas/GpxExtensions/v3">
+    
+    <wpt lat="45.766511" lon="4.836804"><time>2014-10-28T10:05:29Z</time><speed>0.720000</speed><course>-1.000000</course><ele>175</ele><extensions><gpxtpx:TrackPointExtension><gpxtpx:speed>0.720000</gpxtpx:speed><gpxtpx:steps>8</gpxtpx:steps><gpxtpx:course>-1.000000</gpxtpx:course></gpxtpx:TrackPointExtension></extensions></wpt><wpt lat="45.766632" lon="4.836963"><time>2014-10-28T10:05:31Z</time><speed>0.240000</speed><course>358.593750</course><ele>167</ele><extensions><gpxtpx:TrackPointExtension><gpxtpx:speed>0.240000</gpxtpx:speed><gpxtpx:steps>11</gpxtpx:steps><gpxtpx:course>358.593750</gpxtpx:course></gpxtpx:TrackPointExtension></extensions></wpt><wpt lat="45.766707" lon="4.836867"><time>2014-10-28T10:05:32Z</time><speed>0.900000</speed><course>275.625000</course><ele>167</ele><extensions><gpxtpx:TrackPointExtension><gpxtpx:speed>0.900000</gpxtpx:speed><gpxtpx:steps>12</gpxtpx:steps><gpxtpx:course>275.625000</gpxtpx:course></gpxtpx:TrackPointExtension></extensions></wpt><wpt lat="45.7668760" lon="4.836835"><time>2014-10-28T10:05:33Z</time><speed>1.760000</speed><course>348.046875</course><ele>167</ele><extensions><gpxtpx:TrackPointExtension><gpxtpx:speed>1.760000</gpxtpx:speed><gpxtpx:steps>14</gpxtpx:steps><gpxtpx:course>348.046875</gpxtpx:course></gpxtpx:TrackPointExtension></extensions></wpt>
+    
+    
+    <wpt lat="45.766911" lon="4.836804"><time>2014-10-28T10:05:34Z</time><speed>0.720000</speed><course>-1.000000</course><ele>175</ele><extensions><gpxtpx:TrackPointExtension><gpxtpx:speed>0.720000</gpxtpx:speed><gpxtpx:steps>8</gpxtpx:steps><gpxtpx:course>-1.000000</gpxtpx:course></gpxtpx:TrackPointExtension></extensions></wpt>
+    
+    
+    <wpt lat="45.767011" lon="4.836804"><time>2014-10-28T10:05:35Z</time><speed>0.720000</speed><course>-1.000000</course><ele>175</ele><extensions><gpxtpx:TrackPointExtension><gpxtpx:speed>0.720000</gpxtpx:speed><gpxtpx:steps>8</gpxtpx:steps><gpxtpx:course>-1.000000</gpxtpx:course></gpxtpx:TrackPointExtension></extensions></wpt>
+    
+    <wpt lat="45.767111" lon="4.836804"><time>2014-10-28T10:05:36Z</time><speed>0.720000</speed><course>-1.000000</course><ele>175</ele><extensions><gpxtpx:TrackPointExtension><gpxtpx:speed>0.720000</gpxtpx:speed><gpxtpx:steps>8</gpxtpx:steps><gpxtpx:course>-1.000000</gpxtpx:course></gpxtpx:TrackPointExtension></extensions></wpt>
+    
+    <wpt lat="45.767211" lon="4.836804"><time>2014-10-28T10:05:38Z</time><speed>0.720000</speed><course>-1.000000</course><ele>175</ele><extensions><gpxtpx:TrackPointExtension><gpxtpx:speed>0.720000</gpxtpx:speed><gpxtpx:steps>8</gpxtpx:steps><gpxtpx:course>-1.000000</gpxtpx:course></gpxtpx:TrackPointExtension></extensions></wpt>
+    
+    
+
+
+</gpx>
