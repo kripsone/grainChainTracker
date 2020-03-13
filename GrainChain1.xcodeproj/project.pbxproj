@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6EDB9EAFFB65488F80E02E7C /* Pods_GrainChain1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8CF3A99E97F1F4626AF07AE /* Pods_GrainChain1.framework */; };
+		DC2B97E1241BDB2700D74E62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2B97E0241BDB2700D74E62 /* SceneDelegate.swift */; };
 		DC4E1D1524174CB50003E705 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4E1D1424174CB50003E705 /* CoreDataStack.swift */; };
 		DC7D732F2419847300E67508 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7D732E2419847300E67508 /* LocationManager.swift */; };
 		DC7D733124198BD000E67508 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7D733024198BD000E67508 /* MainTabBar.swift */; };
@@ -19,7 +20,6 @@
 		DC83771524172A1800C53938 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC83771424172A1800C53938 /* DetailsVC.swift */; };
 		DC837718241743BD00C53938 /* GrainChain.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC837716241743BD00C53938 /* GrainChain.xcdatamodeld */; };
 		DCD636892414B2850078FE5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD636882414B2850078FE5C /* AppDelegate.swift */; };
-		DCD6368B2414B2850078FE5C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD6368A2414B2850078FE5C /* SceneDelegate.swift */; };
 		DCD6368D2414B2850078FE5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD6368C2414B2850078FE5C /* ViewController.swift */; };
 		DCD636902414B2850078FE5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD6368E2414B2850078FE5C /* Main.storyboard */; };
 		DCD636952414B2880078FE5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD636942414B2880078FE5C /* Assets.xcassets */; };
@@ -30,6 +30,7 @@
 		08FC5A18FFE0B5ACB6B919DF /* Pods-GrainChain1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrainChain1.release.xcconfig"; path = "Target Support Files/Pods-GrainChain1/Pods-GrainChain1.release.xcconfig"; sourceTree = "<group>"; };
 		7C4E0A48B61058BD0828C4D5 /* Pods-GrainChain1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrainChain1.debug.xcconfig"; path = "Target Support Files/Pods-GrainChain1/Pods-GrainChain1.debug.xcconfig"; sourceTree = "<group>"; };
 		C8CF3A99E97F1F4626AF07AE /* Pods_GrainChain1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrainChain1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2B97E0241BDB2700D74E62 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DC4E1D1424174CB50003E705 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		DC7D732E2419847300E67508 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		DC7D733024198BD000E67508 /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainTabBar.swift; path = GrainChain1/MainTabBar.swift; sourceTree = SOURCE_ROOT; };
@@ -43,7 +44,6 @@
 		DC837717241743BD00C53938 /* GrainChain.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GrainChain.xcdatamodel; sourceTree = "<group>"; };
 		DCD636852414B2850078FE5C /* GrainChain1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrainChain1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD636882414B2850078FE5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DCD6368A2414B2850078FE5C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DCD6368C2414B2850078FE5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DCD6368F2414B2850078FE5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCD636942414B2880078FE5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -111,7 +111,7 @@
 		DC7D7338241AF7DC00E67508 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				DCD6368A2414B2850078FE5C /* SceneDelegate.swift */,
+				DC2B97E0241BDB2700D74E62 /* SceneDelegate.swift */,
 				DC7D732E2419847300E67508 /* LocationManager.swift */,
 				DC8377092417172C00C53938 /* Extensions.swift */,
 				DC4E1D1424174CB50003E705 /* CoreDataStack.swift */,
@@ -295,10 +295,10 @@
 				DC837713241726DE00C53938 /* Helpers.swift in Sources */,
 				DCD636892414B2850078FE5C /* AppDelegate.swift in Sources */,
 				DC7D732F2419847300E67508 /* LocationManager.swift in Sources */,
-				DCD6368B2414B2850078FE5C /* SceneDelegate.swift in Sources */,
 				DC83771524172A1800C53938 /* DetailsVC.swift in Sources */,
 				DC837718241743BD00C53938 /* GrainChain.xcdatamodeld in Sources */,
 				DC7D733124198BD000E67508 /* MainTabBar.swift in Sources */,
+				DC2B97E1241BDB2700D74E62 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +446,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V9988524L8;
 				INFOPLIST_FILE = GrainChain1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,7 +454,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.grainChain.GrainChain1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,6 +466,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V9988524L8;
 				INFOPLIST_FILE = GrainChain1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,7 +474,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.grainChain.GrainChain1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
